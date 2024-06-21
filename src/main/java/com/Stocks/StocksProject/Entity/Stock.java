@@ -5,12 +5,14 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.ColumnDefault;
 
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 
 @Entity
+@Table
 public class Stock {
 
     @Id
@@ -20,5 +22,7 @@ public class Stock {
     private String name;
     private String category;
     private  double ltp;
+    @ColumnDefault("NSE")
+    private String exchange;
 
 }

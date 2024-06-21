@@ -39,6 +39,7 @@ public class StockController {
         return new ResponseEntity<>(stockByCategory, HttpStatus.OK);
     }
 
+
     @PutMapping("/updateStock")
     public ResponseEntity<Stock> updateStock(@RequestBody Stock stock){
         Stock updatedStock1= stockService.updateStock(stock);

@@ -20,6 +20,7 @@ public class Stock {
     private int code;
     @Column(nullable = false, unique = true)
     private String name;
+    @Column(nullable = false)
     private String category;
     private  double ltp;
 

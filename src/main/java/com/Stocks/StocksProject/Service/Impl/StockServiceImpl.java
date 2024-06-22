@@ -3,6 +3,7 @@ package com.Stocks.StocksProject.Service.Impl;
 import com.Stocks.StocksProject.Entity.Stock;
 import com.Stocks.StocksProject.Repository.StockRepo;
 import com.Stocks.StocksProject.Service.StockService;
+import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,13 +14,13 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Slf4j
+@RequiredArgsConstructor
 @Service
 public class StockServiceImpl implements StockService {
 
 
 
-    @Autowired
-    private StockRepo stockRepo;
+    private final StockRepo stockRepo;
 
 
 
@@ -79,4 +80,5 @@ public class StockServiceImpl implements StockService {
         }
         return  false;
     }
+
 }

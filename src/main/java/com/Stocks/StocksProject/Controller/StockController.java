@@ -4,6 +4,7 @@ package com.Stocks.StocksProject.Controller;
 import com.Stocks.StocksProject.Entity.Stock;
 import com.Stocks.StocksProject.Exception.StockNotFoundException;
 import com.Stocks.StocksProject.Service.StockService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,12 +14,12 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
+@RequiredArgsConstructor
 @RequestMapping("/v1")
 public class StockController {
 
 
-    @Autowired
-    private StockService stockService;
+    private final StockService stockService;
 
     @GetMapping("/getAllStocks")
     public ResponseEntity<List<Stock>> getAllStocks(){

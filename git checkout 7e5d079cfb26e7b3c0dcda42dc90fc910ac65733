@@ -1,0 +1,41 @@
+[33mcommit ca311651a57b05a61d115f6caadf5cca6dd4d244[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: b4f8c03 7e5d079
+Author: dakshanshika <150774918+dakshanshika@users.noreply.github.com>
+Date:   Sat Jun 22 01:14:57 2024 +0530
+
+    Merge pull request #2 from dakshanshika/AddExchangeToStock
+    
+    Exchange change in Stock.java
+
+[33mcommit 7e5d079cfb26e7b3c0dcda42dc90fc910ac65733[m[33m ([m[1;31morigin/AddExchangeToStock[m[33m)[m
+Author: tech-world2k20 <meabhibarawal@gmail.com>
+Date:   Sat Jun 22 00:34:03 2024 +0530
+
+    Exchange change in Stock.java
+
+[33mcommit b4f8c03e50c08e71379f992ad186698b7df07644[m
+Merge: 2323307 e0f2ff1
+Author: dakshanshika <150774918+dakshanshika@users.noreply.github.com>
+Date:   Fri Jun 21 17:45:44 2024 +0530
+
+    Merge pull request #1 from dakshanshika/feature
+    
+    checking new branch
+
+[33mcommit e0f2ff167e165cbab73b2adca5fd74762d67a7e7[m[33m ([m[1;31morigin/feature[m[33m, [m[1;32mfeature[m[33m)[m
+Author: Anshika <dakshanshika1995@gmail.com>
+Date:   Fri Jun 21 17:37:45 2024 +0530
+
+    checking new branch
+
+[33mcommit 2323307ef326ae6a6078d6d417cc251a41a9d2b0[m
+Author: Anshika <dakshanshika1995@gmail.com>
+Date:   Fri Jun 21 01:08:19 2024 +0530
+
+    Comments added in main class
+
+[33mcommit 16ea92176a3ee2dad2a84cb1e9c0b5538cc248e8[m
+Author: Anshika <dakshanshika1995@gmail.com>
+Date:   Fri Jun 21 01:01:33 2024 +0530
+
+    first commit

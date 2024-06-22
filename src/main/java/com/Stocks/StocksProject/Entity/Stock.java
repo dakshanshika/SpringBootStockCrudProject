@@ -22,6 +22,7 @@ public class Stock {
     private String name;
     private String category;
     private  double ltp;
+
     @ColumnDefault("NSE")
     private String exchange;
 

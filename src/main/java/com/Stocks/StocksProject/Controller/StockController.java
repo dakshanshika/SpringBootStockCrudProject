@@ -46,6 +46,8 @@ public class StockController {
         return new ResponseEntity<>(updatedStock1, HttpStatus.OK);
     }
 
+
+//    Exception handling
     @DeleteMapping("/deleteStock")
     public ResponseEntity<String> deleteStock(@RequestBody int id){
         boolean deletedstock= stockService.deleteStockById(id);
